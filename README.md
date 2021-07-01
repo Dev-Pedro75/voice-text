@@ -8,7 +8,7 @@
 
 ## How to run
 
-### Open the console in the project folder and type <code>node server.js</code>, then open the browser in <code>localhost:3000</code>
+### Open the console in the project folder and type <code>npm i</code>, then type <code>npm server.js</code> and open the browser at <code>localhost:3000</code> 
 
 ## 🚀 Technologies
 
