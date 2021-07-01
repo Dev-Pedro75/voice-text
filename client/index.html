@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Voice Text</title>
+</head>
+
+<body>
+    <header>
+        <h1>Voice Text <i class="fas fa-microphone-alt"></i></h1>
+    </header>
+    <div class="container-text">
+        <div class="tools">
+            <div class="buttons-container">
+                <button class="clear-text"><i class="fas fa-trash-alt"></i></button>
+                <button class="copy-text"><i class="fas fa-copy"></i></button>
+                <button class="play-text"><i class="fas fa-play"></i></button>
+            </div>
+            <div class="select-container">
+                <label for="select">Language</label>
+                <select class="select">
+                    <option value="en">English</option>
+                    <option value="pt_BR">Portuguese</option>
+                    <option value="es">Spanish</option>
+                </select>
+            </div>
+        </div>
+        <textarea class="text"></textarea>
+        <p class="characters">Characters : 0</p>
+    </div>
+    <p class="status">Click button to start</p>
+    <div class="container-button-recording">
+        <button class="button-recording stop"><i class="fas fa-microphone"></i></button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
