@@ -4,7 +4,7 @@
 
 <h3 align='center'>The application allows the user to transform their audio into text, made with <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API">Web Speech API</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition">SpeechRecognition API</a></h3>
 
-<img src='client/img/gif-project.gif'>
+<img src='client/img/gif-project.gif'> 
 
 ## How to run
 
